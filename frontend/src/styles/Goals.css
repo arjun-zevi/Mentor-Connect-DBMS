@@ -1,0 +1,110 @@
+.goals-list {
+    display: grid;
+    gap: 20px;
+}
+
+.goal-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #667eea;
+}
+
+.goal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.goal-header h3 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-open {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.status-in-progress {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+
+.status-completed {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+
+.status-deferred {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.goal-card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.priority-low {
+    color: #28a745;
+}
+
+.priority-medium {
+    color: #ffc107;
+}
+
+.priority-high {
+    color: #dc3545;
+}
+
+.goal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.goal-actions select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.goal-actions .btn {
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.filter-section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-section label {
+    font-weight: 600;
+}
+
+.filter-section select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

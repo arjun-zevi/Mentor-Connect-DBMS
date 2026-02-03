@@ -1,0 +1,75 @@
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.tab.active {
+    color: #667eea;
+    border-bottom-color: #667eea;
+}
+
+.tab:hover {
+    color: #667eea;
+}
+
+.meetings-list {
+    display: grid;
+    gap: 20px;
+}
+
+.meeting-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #667eea;
+}
+
+.meeting-card.overdue {
+    border-left-color: #ff6b6b;
+    background-color: #fff5f5;
+}
+
+.meeting-card h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.meeting-card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.meeting-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.status-select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.meeting-actions .btn {
+    padding: 8px 12px;
+    font-size: 13px;
+}
